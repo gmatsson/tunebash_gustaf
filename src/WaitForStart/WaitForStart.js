@@ -9,7 +9,7 @@ import Quiz from "../Quiz/Quiz";
 import QuizAnswers from "../QuizAnswers/QuizAnswers";
 import GameResults from "../GameResults/GameResults";
 
-const socketUrl = "https://secure-shelf-15160.herokuapp.com/:3231";
+const socketUrl = "http://secure-shelf-15160.herokuapp.com/:3231";
 class WaitForStart extends Component {
   constructor(props) {
     super(props);

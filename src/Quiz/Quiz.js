@@ -5,7 +5,7 @@ import GameResults from "../GameResults/GameResults";
 import io from "socket.io-client";
 
 
-const socketUrl = "/";
+const socketUrl = "http//localhost:3231";
 class Quiz extends Component {
   constructor(props) {
     super(props);

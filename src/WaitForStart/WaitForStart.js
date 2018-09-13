@@ -9,7 +9,7 @@ import Quiz from "../Quiz/Quiz";
 import QuizAnswers from "../QuizAnswers/QuizAnswers";
 import GameResults from "../GameResults/GameResults";
 
-const socketUrl = "/";
+const socketUrl = "http//localhost:3231";
 class WaitForStart extends Component {
   constructor(props) {
     super(props);

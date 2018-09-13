@@ -1,0 +1,36 @@
+.spotifyDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+   
+}
+
+.spotifyButton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    transition: all 0.3s ease;
+    padding: 16px;
+    width: 200px;
+    background-color: #333333;
+    color: white;
+}
+
+.spotifyButton:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 560px) {
+
+    .spotifyDiv{
+        margin-top: 4em;
+    }
+
+}

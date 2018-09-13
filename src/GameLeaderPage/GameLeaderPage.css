@@ -1,0 +1,89 @@
+.headline{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.random{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 32px;
+}
+
+.buttonStartGame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startGameButton{
+    width: 150px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    transition: all 0.3s ease;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.instructions{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.counter{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 1.5em;
+text-align: center;
+margin-top: 2em;
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.next_quit_button{
+border: 1px solid transparent;
+border-radius: 50px;
+font-family:  'Montserrat', sans-serif;
+font-size: 1.3em;
+font-weight: bold;
+padding: 0.4em;
+margin-right: 10px;
+}
+
+@media only screen and (min-width: 560px) {
+    .headline {
+        margin-top: 7em;
+    }
+
+    #startGameButton{
+        display: flex;
+        justify-content: center;
+        
+    }
+  }
+

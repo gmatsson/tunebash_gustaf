@@ -1,0 +1,44 @@
+{
+  "name": "practise-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "maven": "^4.4.1",
+    "moment": "^2.22.2",
+    "npm": "^6.4.1",
+    "rc-progress": "^2.2.5",
+    "react": "^16.4.2",
+    "react-audio-player": "^0.10.0",
+    "react-dom": "^16.5.0",
+    "react-howler": "^3.7.3",
+    "react-modal": "^3.5.1",
+    "react-music-player": "^1.0.3",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "react-spinning-wheel": "^1.1.7",
+    "react-spotify-player": "^1.0.4",
+    "react-stomp": "^3.3.0",
+    "react-validation": "^3.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "socket.io": "^2.1.1",
+    "validatorjs": "^3.14.2"
+  },
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "concurrently 'npm run react' 'npm run server'",
+    "react": "react-scripts start",
+    "server": "nodemon src/server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}

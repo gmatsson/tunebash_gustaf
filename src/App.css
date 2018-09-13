@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  }
+  
+  button:focus{
+    outline: 0;
+  }
+
+.main-section {
+  width: 900px;
+  position: relative;
+  left: 200px;
+  padding: 0 10px;
+}
+
+.main-section-container {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#login {
+  display: none;
+}
+
+#loggedin {
+  display: none;
+}

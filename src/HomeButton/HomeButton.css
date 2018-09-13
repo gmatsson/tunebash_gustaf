@@ -1,0 +1,25 @@
+.homeButtonSymbol {
+    font-size: 72px;
+    text-decoration: none;
+    color: #551A8B;
+    opacity: 0.8;
+    transition: 0.3s ease all;
+}
+
+.homeButtonSymbol:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #551A8B;
+}
+
+.homeButtonSymbol:visited {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 560px) {
+    .homeButtonSymbol {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+}

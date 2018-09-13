@@ -1,0 +1,137 @@
+.headlineNewGame {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 1em;
+}
+
+.form {
+    display: block;
+    margin: 0, auto;
+    text-align: center;
+}
+
+.select {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+select {
+    width: 220px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 0px dotted #000000;
+    border-radius: 10px;
+    background: #E6E6E6;
+    color: rgb(105, 105, 105);
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    color: #000000;
+    background: #CCCCCC;
+}
+
+option {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.createNewPinCode {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    transition: all 0.3s ease;
+    padding: 1em;
+    margin-top : -2em;
+}
+
+.createPinCode:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#generateCustomGame {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #551A8B;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: 1.6;
+}
+
+#generateCustomGame:hover {
+    opacity: 0.5;
+}
+
+#generateCustomGame:visited {
+    text-decoration: none;
+}
+
+#openCustomGame{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #551A8B;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    opacity: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: 1.6;
+}
+
+#openCustomGame:hover{
+    opacity: 0.5;
+}
+
+#openCustomGame:visited {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 560px) {
+    .headlineNewGame {
+        font-size: 36px;
+        margin-top: 3.5em;
+    }  
+    select{
+        font-size: 1.2em;
+    }
+
+    .createNewPinCode{
+        font-size: 0.8em;
+    }
+
+    .generateCustomGameDiv{
+        display: block;
+        text-align: center;
+    }
+  
+    #generateCustomGame {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    option {
+        font-weight: bolder;
+    }
+
+    
+}

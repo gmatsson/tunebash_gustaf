@@ -1,0 +1,88 @@
+.headlinePopup{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    line-height: 3em;
+}
+
+strong{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.answersPopup{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.popupButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #551A8B;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1em;
+}
+
+.popupButton:hover {
+    opacity: 1;
+}
+
+.popupButton:visited {
+    text-decoration: none;
+}
+
+.closeButton{
+    display: block;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    background-color: papayawhip;
+    position: fixed;
+    bottom: 0;
+    width: 67%;
+    margin-bottom: 3em;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.8;
+    border: none;
+}
+
+.closeButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#bottomFAQ{
+    margin-bottom: 5em;
+}
+
+
+@media only screen and (min-width: 560px) {
+    .closeDiv{
+        display: block;
+        align-items: center;
+       
+        background-color: transparent;
+    }
+
+    .closeButton{
+       text-align: center;
+       width: 100%;
+       background-color: transparent;
+    }
+
+    p{
+        font-size: 1.3em;
+    }
+}

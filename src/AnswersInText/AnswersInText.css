@@ -1,0 +1,19 @@
+.AnswersDiv{
+    display:flex;
+   flex-direction: column;
+   text-align: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 1em;
+}
+
+
+.answerOption{
+    border: 1px solid black;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    border-radius: 50px;
+    padding: 0.4em;
+    font-size: 1.2em;
+}

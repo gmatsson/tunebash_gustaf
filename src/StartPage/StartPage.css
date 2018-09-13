@@ -1,0 +1,139 @@
+.wholeLogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+svg {
+    width: 35%;
+    height: auto;
+}
+
+.logoName {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    margin-top: -0.5em;
+    text-align: center;
+}
+
+.codeInput {
+    text-align: center;
+}
+
+.formDiv {
+    margin: 0, auto;
+    text-align: center;
+}
+
+.textDiv {
+    text-align: center;
+}
+
+.submitDiv {
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 1em;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    margin-top: 1em;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;;
+    text-align: center;
+}
+
+input[type=submit] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    transition: all 0.3s ease;
+    padding: 1em;
+    width: 150px;
+    margin-top: 2em;
+}
+
+input[type=submit]:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.newGameStartPage{
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#newGameButton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #551A8B;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#newGameButton:hover {
+    opacity: 1;
+}
+
+#newGamebutton:visited {
+    text-decoration: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 560px) {
+    svg {
+        width: 300px;
+        height: auto;
+        margin-bottom: 1.8em;
+        margin-top: 9em;
+    }
+    .logoName {
+        font-size: 6em;
+    }
+    
+    .formDiv {
+        display: inline-block;
+        margin: 0, auto;
+        text-align: center;
+    }
+    
+    #newGameButton {
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    .pinCodeInput{
+        margin-right: 1em;
+    }
+
+    input[type=submit]{
+        font-size: 1.5em;
+    }
+}

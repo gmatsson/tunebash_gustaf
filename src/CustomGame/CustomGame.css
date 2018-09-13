@@ -1,0 +1,53 @@
+.headlineCustomGame {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+form input[type=text] {
+    min-width: 300px;
+    font-size: 1em;
+}
+
+#createPinCodeCustom {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: solid 0px;
+    transition: all 0.3s ease;
+    width: 150px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.85em;
+}
+
+#createPinCodeCustom:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.questionsInQuiz{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 560px) {
+    .playButton {
+        width: 200px;
+    }
+
+    .headlineCustomGame{
+        margin-top: 2.8em;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+}

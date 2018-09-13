@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Answer from "../Answer/Answer";
 import io from "socket.io-client";
 
-const socketUrl = "http://localhost:3231";
+const socketUrl = "/";
 class QuizAnswer extends Component {
   constructor(props) {
     super(props);

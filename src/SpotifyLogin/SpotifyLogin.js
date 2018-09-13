@@ -11,7 +11,7 @@ class SpotifyLogin extends Component {
 
   login = callback => {
     var CLIENT_ID = "82c3c3a0508a4fe986a13ae7aaf063f7";
-    var REDIRECT_URI = "http://localhost:3000/callback";
+    var REDIRECT_URI = "/callback";
 
     function getLoginURL(scopes) {
       return (

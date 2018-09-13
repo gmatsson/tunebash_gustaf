@@ -67,7 +67,7 @@ public class QuestionController {
         return questions;
     }
 
-    @CrossOrigin(origins = "http://localhost:3000")
+    // @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping(value = "/addcustomquestion", consumes = MediaType.APPLICATION_JSON_VALUE)
     public void customquestion(@RequestBody CustomQuestion question, HttpServletResponse response) {
         response.setHeader("Access-Control-Allow-Origin", "*");

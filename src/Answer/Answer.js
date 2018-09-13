@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import io from "socket.io-client";
 import './Answer.css';
 
-const socketUrl = "http://localhost:3231";
+const socketUrl = "/";
 class Answer extends Component {
   constructor(props) {
     super(props);

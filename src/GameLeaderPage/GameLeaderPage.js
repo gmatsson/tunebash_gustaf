@@ -8,7 +8,7 @@ import MusicPlayer from "../MusicPlayer/MusicPlayer";
 import AnswersInText from "../AnswersInText/AnswersInText";
 import GameResults from "../GameResults/GameResults";
 
-const socketUrl = "http//localhost:3231";
+const socketUrl = "https//secure-shelf-15160.herokuapp.com/:3231";
 class GameLeaderPage extends Component {
   constructor(props) {
     super(props);
